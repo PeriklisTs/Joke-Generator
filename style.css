@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "rubik",sans-serif;
+}
+
+body {
+  background-color: #fab22e;
+}
+
+.wrapper {
+  width: 80vmin;
+  padding: 5rem 5rem;
+  background-color: #15161a;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.5rem;
+  box-shadow: 3rem 3rem 5rem rgba(97,63,0,0.4);
+}
+
+span{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 10em;
+}
+
+p{
+  font-size: 1.6em;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 2rem;
+  margin: 3rem 0;
+}
+
+button{
+  display: block;
+  background-color: #fab22e;
+  border: none;
+  font-size: 1.8em;
+  color: #171721;
+  font-weight: 600;
+  padding: 1.2rem 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0 auto;
+}
